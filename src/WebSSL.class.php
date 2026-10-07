@@ -7,7 +7,7 @@ class WebSSLException extends Exception { }
  
 class WebSSL {
 
-	public $debug = true;
+	public $debug = false;
 
 	private $hsmAddress; 
 
